@@ -11,8 +11,7 @@ def areaRectangle(length, width):
     Returns:
       float: area of the rectangle
     """
-    # TODO: Implement this function
-    pass #delete this once function is written 
+    print("TODO: Implement rectangle area function")
 
 def areaTriangle(base, height):
     """
@@ -23,8 +22,7 @@ def areaTriangle(base, height):
     Returns:
       float: area of the triangle
     """
-    # TODO: Implement this function
-    pass #delete this once function is written 
+    print("TODO: Implement triangle area function")
 
 def areaCircle(radius):
     """
@@ -34,8 +32,7 @@ def areaCircle(radius):
     Returns:
       float: area of the circle
     """
-    # TODO: Implement this function
-    pass #delete this once function is written 
+    print("TODO: Implement circle area function")
 
 # --- Main Program ---
 
@@ -44,6 +41,9 @@ print("Enter 'R' for Rectangle, 'T' for Triangle, or 'C' for Circle.")
 
 shape = input("Your choice: ").strip().lower()
 
+# these are called conditionals, there will be more information about them next week
+# they are meant to check if a condition is true, if so, it runs
+# for now, just use this template we gave you :)
 if shape == "r":
     # TODO: Ask for length and width as floats
     # length = float(input("Enter the length: "))
